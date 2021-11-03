@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on HXC`s BLOG</title>
+    <link>https://xkkker.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on HXC`s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xkkker.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>redis实例间迁移同步数据</title>
+      <link>https://xkkker.github.io/2021/redis-shake/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xkkker.github.io/2021/redis-shake/</guid>
+      <description>背景 因业务需要，需要同步一个redis db0的数据到新redis实例下，因此需要一个同步的工具。 主要需求点 针对指定的redis db 支持实例间同</description>
+    </item>
+    
+  </channel>
+</rss>
