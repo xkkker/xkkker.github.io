@@ -9,9 +9,9 @@
   <meta name="description" content="xkkker 的个人博客">
   <meta name="keywords" content="blog, KMS, Hugo, GNU/Linux, Linux">
   
+  <link rel="prev" href="https://xkkker.github.io/2021/apm/" />
   
-  <link rel="next" href="https://xkkker.github.io/2021/redis-shake/" />
-  <link rel="canonical" href="https://xkkker.github.io/2021/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F/" />
+  <link rel="canonical" href="https://xkkker.github.io/2021/k8s%E9%9B%86%E7%BE%A4%E5%8D%87%E7%BA%A7/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           杀死一只知更鸟阅读笔记与感受 | HXC`s BLOG
+           k8s集群升级 | HXC`s BLOG
        
   </title>
-  <meta name="title" content="杀死一只知更鸟阅读笔记与感受 | HXC`s BLOG">
+  <meta name="title" content="k8s集群升级 | HXC`s BLOG">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/xkkker.github.io"
     },
     "articleSection" : "posts",
-    "name" : "杀死一只知更鸟阅读笔记与感受",
-    "headline" : "杀死一只知更鸟阅读笔记与感受",
-    "description" : "《杀死一只知更鸟》阅读感受 最近花了几天的时间沉迷于《杀死一只知更鸟》这本书中，所谓沉迷是因为为了看这本书而忽略了家中的人与事，引发了老婆的碎",
+    "name" : "k8s集群升级",
+    "headline" : "k8s集群升级",
+    "description" : "版本升级测试说明 此文档基于本地集群测试。 前提： 版本1.16→1.17 升级控制平面（master）节点 # 查看kubeadm版本列表 yum list --showduplicates kubeadm --disableexcludes=kubernetes #",
     "inLanguage" : "zh-cn",
     "author" : "xkkker",
     "creator" : "xkkker",
@@ -54,11 +54,11 @@
     "accountablePerson" : "xkkker",
     "copyrightHolder" : "xkkker",
     "copyrightYear" : "2021",
-    "datePublished": "2021-11-03 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2021-11-03 00:00:00 \u002b0000 UTC",
-    "url" : "https:\/\/xkkker.github.io\/2021\/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F\/",
-    "wordCount" : "202",
-    "keywords" : [ "life", "HXC`s BLOG"]
+    "datePublished": "2021-11-08 00:00:00 \u002b0000 UTC",
+    "dateModified" : "2021-11-08 00:00:00 \u002b0000 UTC",
+    "url" : "https:\/\/xkkker.github.io\/2021\/k8s%E9%9B%86%E7%BE%A4%E5%8D%87%E7%BA%A7\/",
+    "wordCount" : "384",
+    "keywords" : [ "kubernetes", "HXC`s BLOG"]
 }
 </script>
 
@@ -116,16 +116,16 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">杀死一只知更鸟阅读笔记与感受</h1>
+        <h1 class="post-title" itemprop="name headline">k8s集群升级</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://xkkker.github.io" rel="author">xkkker</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2021-11-03 itemprop="datePublished">November 3, 2021</time>
+                on <time datetime=2021-11-08 itemprop="datePublished">November 8, 2021</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://xkkker.github.io/categories/reading/"> reading </a>
+                        <a href="https://xkkker.github.io/categories/ops/"> ops </a>
                         
                 </span>
         </div>
@@ -146,13 +146,59 @@
           
           
 
-          <h3 id="杀死一只知更鸟阅读感受">《杀死一只知更鸟》阅读感受</h3>
-<p>最近花了几天的时间沉迷于《杀死一只知更鸟》这本书中，所谓沉迷是因为为了看这本书而忽略了家中的人与事，引发了老婆的碎碎念。书中的主角斯库特、杰姆、阿迪克斯，他们父子之间的情感与交流，让我着迷，有种欣赏、羡慕、赞叹的情感。</p>
-<h3 id="阿迪克斯杰姆斯库特">阿迪克斯、杰姆、斯库特</h3>
-<p>阿迪克斯是梅科姆镇的一位律师，也是杰姆和斯库特的父亲。杰姆和斯库特的母亲去世了，所以他们在阿迪克斯的照顾和教育下长大。</p>
-<h3 id="怪人拉德利">怪人拉德利</h3>
-<h3 id="汤姆鲁滨逊">汤姆鲁滨逊</h3>
+          <h3 id="版本升级测试说明">版本升级测试说明</h3>
+<p>此文档基于本地集群测试。</p>
+<p>前提：</p>
+<p>版本1.16→1.17</p>
+<h3 id="升级控制平面master节点">升级控制平面（master）节点</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 查看kubeadm版本列表</span>
+yum list --showduplicates kubeadm --disableexcludes<span style="color:#f92672">=</span>kubernetes
 
+<span style="color:#75715e"># 安装kubeadm1.17的最新版本 </span>
+yum install -y kubeadm-1.17.17-0 --disableexcludes<span style="color:#f92672">=</span>kubernetes
+kubeadm version
+
+<span style="color:#75715e"># 驱逐控制节点的pod</span>
+kubectl drain $CP_NODE --ignore-daemonsets
+
+sudo kubeadm upgrade plan
+
+sudo kubeadm upgrade apply v1.17.17
+
+<span style="color:#75715e"># 取消维护控制节点</span>
+kubectl uncordon $CP_NODE
+
+<span style="color:#75715e"># 升级控制平面节点上的 kubelet 和 kubectl ：</span>
+yum install -y kubelet-1.17.17-0 kubectl-1.17.17-0 --disableexcludes<span style="color:#f92672">=</span>kubernetes
+<span style="color:#75715e"># 重启kubelet</span>
+sudo systemctl restart kubelet
+
+<span style="color:#75715e"># 升级其它控制平面节点（多master集群）</span>
+<span style="color:#75715e"># 与第一个控制平面节点相同，但使用以下命令替代前面的sudo kubeadm upgrade apply：</span>
+sudo kubeadm upgrade node experimental-control-plane
+<span style="color:#75715e"># 也不需要 sudo kubeadm upgrade plan 。</span>
+</code></pre></div><h3 id="升级worker节点">升级worker节点</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yum install -y kubeadm-1.17.17-0 --disableexcludes<span style="color:#f92672">=</span>kubernetes
+
+<span style="color:#75715e"># 清空节点（因为需要清空节点，故需要保证集群资源充足）</span>
+kubectl drain $NODE --ignore-daemonsets
+
+<span style="color:#75715e"># 升级 kubelet 配置:</span>
+sudo kubeadm upgrade node config --kubelet-version v1.17.17
+
+<span style="color:#75715e"># 升级worker节点上的 kubelet 和 kubectl ：</span>
+yum install -y kubelet-1.17.17-0 kubectl-1.17.17-0 --disableexcludes<span style="color:#f92672">=</span>kubernetes
+
+<span style="color:#75715e"># 重启kubelet</span>
+sudo systemctl restart kubelet
+
+<span style="color:#75715e"># 取消节点保护，使节点加入调度</span>
+kubectl uncordon $NODE
+</code></pre></div><h3 id="验证升级结果">验证升级结果</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">kubectl get nodes
+
+<span style="color:#75715e"># 测试服务能否正常部署，能否正常访问。</span>
+</code></pre></div>
     </div>
 
     <div class="post-copyright">
@@ -166,7 +212,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://xkkker.github.io/2021/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F/>https://xkkker.github.io/2021/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F/</span>
+                    <a href=https://xkkker.github.io/2021/k8s%E9%9B%86%E7%BE%A4%E5%8D%87%E7%BA%A7/>https://xkkker.github.io/2021/k8s%E9%9B%86%E7%BE%A4%E5%8D%87%E7%BA%A7/</span>
             </p>
             
              
@@ -182,8 +228,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://xkkker.github.io/tags/life/">
-                    #life</a></span>
+            <span class="tag"><a href="https://xkkker.github.io/tags/kubernetes/">
+                    #kubernetes</a></span>
             
             </section>
         
@@ -194,9 +240,9 @@
     </div>
 
     <div class="post-nav">
-         
         
-        <a href="https://xkkker.github.io/2021/redis-shake/" class="next" rel="next" title="redis实例间迁移同步数据">redis实例间迁移同步数据&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://xkkker.github.io/2021/apm/" class="prev" rel="prev" title="APM"><i class="iconfont icon-left"></i>&nbsp;APM</a>
+         
         
     </div>
 

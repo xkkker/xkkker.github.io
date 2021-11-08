@@ -6,7 +6,16 @@
     <description>Recent content in ops on HXC`s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xkkker.github.io/categories/ops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xkkker.github.io/categories/ops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>k8s集群升级</title>
+      <link>https://xkkker.github.io/2021/k8s%E9%9B%86%E7%BE%A4%E5%8D%87%E7%BA%A7/</link>
+      <pubDate>Mon, 08 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xkkker.github.io/2021/k8s%E9%9B%86%E7%BE%A4%E5%8D%87%E7%BA%A7/</guid>
+      <description>版本升级测试说明 此文档基于本地集群测试。 前提： 版本1.16→1.17 升级控制平面（master）节点 # 查看kubeadm版本列表 yum list --showduplicates kubeadm --disableexcludes=kubernetes #</description>
+    </item>
+    
     <item>
       <title>APM</title>
       <link>https://xkkker.github.io/2021/apm/</link>
