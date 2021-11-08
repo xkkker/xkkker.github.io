@@ -2,9 +2,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://xkkker.github.io/2021/apm/</loc>
+      
+      <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://xkkker.github.io/tags/apm/</loc>
+      
+      <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://xkkker.github.io/categories/</loc>
       
-      <lastmod>2021-11-03T00:00:00+00:00</lastmod>
+      <lastmod>2021-11-04T00:00:00+00:00</lastmod>
       
       
       
@@ -13,6 +33,46 @@
   
     <url>
       <loc>https://xkkker.github.io/</loc>
+      
+      <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://xkkker.github.io/categories/ops/</loc>
+      
+      <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://xkkker.github.io/posts/</loc>
+      
+      <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://xkkker.github.io/tags/</loc>
+      
+      <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://xkkker.github.io/tags/life/</loc>
       
       <lastmod>2021-11-03T00:00:00+00:00</lastmod>
       
@@ -32,17 +92,7 @@
     </url>
   
     <url>
-      <loc>https://xkkker.github.io/categories/ops/</loc>
-      
-      <lastmod>2021-11-03T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://xkkker.github.io/posts/</loc>
+      <loc>https://xkkker.github.io/categories/reading/</loc>
       
       <lastmod>2021-11-03T00:00:00+00:00</lastmod>
       
@@ -62,9 +112,17 @@
     </url>
   
     <url>
-      <loc>https://xkkker.github.io/tags/</loc>
+      <loc>https://xkkker.github.io/2021/%E6%9D%80%E6%AD%BB%E4%B8%80%E5%8F%AA%E7%9F%A5%E6%9B%B4%E9%B8%9F/</loc>
       
       <lastmod>2021-11-03T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://xkkker.github.io/1/k8s%E9%9B%86%E7%BE%A4%E5%8D%87%E7%BA%A7/</loc>
       
       
       
