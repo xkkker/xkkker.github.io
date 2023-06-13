@@ -1,86 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T07:50:42.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Y2EJ0p_I8kuP6LHvvjjh" version="21.0.8" type="github">
-  <diagram name="第 1 页" id="z19mSJFszKogab6qhDWc">
-    <mxGraphModel dx="681" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100000" pageHeight="100000" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-06-13T10:02:39.070Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="Q_Bw5Jkr8XtLXrYXcSeQ" type="github">
+  <diagram name="第 1 页" id="UFgLpiG_ChsJFQ2afVsA">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oWucUd9zgR5w3wV0esu_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-1" target="oWucUd9zgR5w3wV0esu_-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-1" value="申请创建项目" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-2" target="oWucUd9zgR5w3wV0esu_-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-2" value="创建gitlab仓库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-6" target="oWucUd9zgR5w3wV0esu_-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-6" value="创建apollo app/分配密钥/授权测试环境" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-7" target="oWucUd9zgR5w3wV0esu_-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-7" value="分配域名" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-11" target="oWucUd9zgR5w3wV0esu_-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-11" target="oWucUd9zgR5w3wV0esu_-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-11" value="创建DB、分配redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-13" target="oWucUd9zgR5w3wV0esu_-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-13" value="创建jenkins任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-15" value="注册webhook到git仓库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="740" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-17" target="oWucUd9zgR5w3wV0esu_-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="285" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-17" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="250" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-20" target="oWucUd9zgR5w3wV0esu_-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-20" value="提交代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-21" target="oWucUd9zgR5w3wV0esu_-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-21" value="jenkins任务启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oWucUd9zgR5w3wV0esu_-23" target="oWucUd9zgR5w3wV0esu_-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-23" value="构建/部署" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-24" value="通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="700" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oWucUd9zgR5w3wV0esu_-27" value="存储配置，写入apollo？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="540" width="120" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
